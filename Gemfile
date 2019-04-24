@@ -36,7 +36,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem "byebug", "~> 11.0"
+  gem 'rb-readline'
   gem 'pry'
   gem 'pry-rails'
   gem 'pry-byebug'
@@ -76,3 +77,4 @@ gem 'devise'
 gem 'dotenv-rails'
 gem 'active_model_serializers'
 gem "foreman", "~> 0.63.0"
+

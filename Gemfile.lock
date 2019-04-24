@@ -238,6 +238,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rb-readline (0.5.5)
     regexp_parser (1.4.0)
     responders (2.4.1)
       actionpack (>= 4.2.0, < 6.0)
@@ -319,7 +320,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootsnap (>= 1.1.0)
-  byebug
+  byebug (~> 11.0)
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
@@ -339,6 +340,7 @@ DEPENDENCIES
   pry-rescue
   puma (~> 3.11)
   rails (~> 5.2.2)
+  rb-readline
   rspec-rails
   sass-rails (~> 5.0)
   selenium-webdriver
