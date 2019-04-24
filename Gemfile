@@ -75,3 +75,4 @@ gem 'activevalidators'
 gem 'devise'
 gem 'dotenv-rails'
 gem 'active_model_serializers'
+gem "foreman", "~> 0.63.0"
