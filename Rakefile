@@ -5,6 +5,14 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
+task :server do
+  exec 'bundle exec rails s -p 3001'
+end
+
+task :client do
+  exec 'cd client && npm start'
+end
+
 task :start do
   exec 'foreman start -p 3000'
 end

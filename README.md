@@ -1,5 +1,9 @@
 # README
 
+## Server
+To run the Rails API server, run `bundle exec rails s -p 3001` or `rake start`.
+To run the React Web app, run `rake client`.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
